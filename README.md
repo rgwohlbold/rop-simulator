@@ -21,3 +21,7 @@ These tasks should be increasing in difficulty.
 3. Open a shell and exit with exit code 0
 4. Open a shell using `execve` and exit with exit code 0
 5. Open a shell without using any of the provided addresses
+
+## Credits
+
+I based this off the idea by [0x4d5a](https://twitter.com/0x4d5a) in the challenge `intro-pwn-3` of [CSCG 2022](https://cscg.live/).
