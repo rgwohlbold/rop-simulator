@@ -2,9 +2,16 @@
 
 The purpose of this program is to teach about Return-Oriented Programming.
 
+## Compiling
+
+You have two options:
+
+- Build the program using `make`. You may need to install the package `libreadline-dev` so you can link against `readline`. 
+- Use the pre-built binary compiled for Kali Linux.
+
 ## Usage
 
-Build the program using `make`. Run the program using `./sim`. The program overrides its own stack using the information provided, starting at the return address of `main`.
+Run the program using `./sim`. The program overrides its own stack using the information provided, starting at the return address of `main`.
 
 There are three types of tokens you can enter:
 
